@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Example post
+title: Learning to write code
 cover: cover.jpg
-date:   2013-12-09 12:00:00
+date:   2015-03-29 22:00:00
 categories: posts
 ---
 
