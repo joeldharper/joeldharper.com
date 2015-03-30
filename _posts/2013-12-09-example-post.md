@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Dru Sellers is the man!
-cover: cover.jpg
+title: Joel's Resume Site
+cover: jessica.jpg
 date:   2015-03-29 22:00:00
 categories: posts
 ---
