@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning to write code
+title: I treat my wife like roadkill
 cover: cover.jpg
 date:   2015-03-29 22:00:00
 categories: posts
