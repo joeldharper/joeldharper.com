@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Melica - Minimal Blog Template - Grid Index</title>
+
+    <!-- Fonts, %7C = | -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700%7CRaleway:400,500,600" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap & Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IE9 Fallback -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7,respond@1.4"></script>
+    <![endif]-->
+
+    <!-- Modernizr -->
+    <script src="js/vendor/modernizr.custom.js"></script>
+
+    <!-- Important CSS for animations -->
+    <style>
+        [data-sr] {
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body class="big-grid">
+
+
+    <!-- ========= Header Section ========= -->
+    <header id="header" class="big-grid">
+        <div class="container">
+            <!-- logo -->
+            <a href="index.html" class="logo"><h1>Melica</h1></a>
+
+            <!-- menu -->
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#">Home <i class="fa fa-angle-down"></i></a>
+
+                        <!-- nested menu -->
+                        <ul>
+                            <li>
+                                <a href="index.html">Header styles <i class="fa fa-angle-right"></i></a>
+
+                                <!-- nested menu -->
+                                <ul data-noajax>
+                                    <li><a href="javascript:melicaHeaderMode(0);">White</a>
+                                    </li>
+                                    <li><a href="javascript:melicaHeaderMode(1);">Black</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li><a href="index.html">Standard layout</a>
+                            </li>
+                            <li><a href="index_grid.html">Grid layout</a>
+                            </li>
+                            <li><a href="index_nslider.html">Narrow slider</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Features <i class="fa fa-angle-down"></i></a>
+
+                        <!-- nested menu -->
+                        <ul>
+                            <li><a href="404.html">404 Page</a>
+                            </li>
+                            <li><a href="typography.html">Typography</a>
+                            </li>
+                            <li><a href="post-fullwidth.html">Fullwidth Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="category.html">Category page</a>
+                    </li>
+                    <li><a href="about.html">About me</a>
+                    </li>
+                    <li><a href="contact.html">Contact me</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- search form -->
+            <form id="search-form" action="#" method="get">
+                <input type="text" name="search" placeholder="Type and hit enter" />
+            </form>
+
+            <!-- toggle buttons -->
+            <div class="toggle-buttons">
+                <a class="fa fa-search" id="search-btn" href="#"></a>
+                <a class="fa fa-bars" id="menu-btn" href="#"></a>
+            </div>
+        </div>
+
+        <!-- shadow element -->
+        <div class="shadow"></div>
+    </header>
+
+    <!-- ========= Big Slider ========= -->
+    <section id="slider-container" class="header-nomargin">
+
+        <!-- Place your slides here -->
+
+        <div style="background-image: url('images/placeholders/slider.png');">
+            <div class="overlay-helper"></div>
+
+            <div class="caption">
+                <a href="category.html" class="category">People</a>
+                <h1><a href="post.html">Daily life in India</a></h1>
+            </div>
+        </div>
+
+        <div style="background-image: url('images/placeholders/slider.png');">
+            <div class="overlay-helper"></div>
+
+            <div class="caption">
+                <a href="category.html" class="category">Travel</a>
+                <h1><a href="post.html">The great trip to big canyon</a></h1>
+            </div>
+        </div>
+
+        <div style="background-image: url('images/placeholders/slider.png');">
+            <div class="overlay-helper"></div>
+
+            <div class="caption">
+                <a href="category.html" class="category">Exploration</a>
+                <h1><a href="post.html">Explore the North America</a></h1>
+            </div>
+        </div>
+
+        <div style="background-image: url('images/placeholders/slider.png');">
+            <div class="overlay-helper"></div>
+
+            <div class="caption">
+                <a href="category.html" class="category">Travel</a>
+                <h1><a href="post.html">10 tips for a successful vacation</a></h1>
+            </div>
+        </div>
+
+        <div style="background-image: url('images/placeholders/slider.png');">
+            <div class="overlay-helper"></div>
+
+            <div class="caption">
+                <a href="category.html" class="category">Architecture</a>
+                <h1><a href="post.html">Greatest apartments in the world</a></h1>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========= Content ========= -->
+    <section class="container nopadding-sm">
+
+        <h1 class="section-title">Recent posts</h1>
+
+        <!-- ========= Posts flow ========= -->
+        <main class="animate" data-masonry="3">
+
+            <article class="post-entry short-story box">
+                <header>
+                    <a href="post.html">
+                        <img src="images/placeholders/article.png" alt="" /> </a>
+                </header>
+
+                <!-- meta info (title, category, author, etc..) -->
+                <div class="meta">
+                    <div class="category"><a href="category.html">Travel</a>
+                    </div>
+
+                    <h1><a href="post.html">Best markets in Europe</a></h1>
+
+                    <div class="subline">
+                        <time datetime="2014-12-19">19 dec 2014</time>
+                        <span>By <a href="#">WPHunters</a></span>
+                    </div>
+                </div>
+
+                <!-- article text -->
+                <div class="contents">Exercitation voluptate dolor id laboris quis commodo esse. Laboris laborum consequat reprehenderit dolore aliquip aute reprehenderit anim fugiat dolore.</div>
+
+                <!-- read more -->
+                <div class="text-center"><a class="btn btn-primary small" href="post.html">Read more</a>
+                </div>
+
+                <!-- article footer -->
+                <footer class="two-col">
+                    <div><a class="text-muted text-uppercase small" href="post.html#comments">12 comments</a>
+                    </div>
+
+                    <div>
+                        <div class="social-likes social-likes_single" data-single-title="Share">
+                            <div class="facebook" title="Share link on Facebook">Facebook</div>
+                            <div class="twitter" title="Share link on Twitter">Twitter</div>
+                            <div class="plusone" title="Share link on Google+">Google+</div>
+                        </div>
+                    </div>
+                </footer>
+            </article>
+
+            <article class="post-entry short-story box">
+                <header class="slick with-arrows" data-slider>
+                    <div><img src="images/placeholders/article.png" alt="" />
+                    </div>
+                    <div><img src="images/placeholders/article.png" alt="" />
+                    </div>
+                    <div><img src="images/placeholders/article.png" alt="" />
+                    </div>
+                </header>
+
+                <!-- meta info (title, category, author, etc..) -->
+                <div class="meta">
+                    <div class="category"><a href="category.html">Travel</a>
+                    </div>
+
+                    <h1><a href="post.html">Where to go this autumn</a></h1>
+
+                    <div class="subline">
+                        <time datetime="2014-12-01">1 dec 2014</time>
+                        <span>By <a href="#">WPHunters</a></span>
+                    </div>
+                </div>
+
+                <!-- article text -->
+                <div class="contents">Reprehenderit Lorem labore nulla nisi aliquip. Commodo non aliquip quis nostrud reprehenderit cupidatat dolor dolor esse nisi exercitation. Sunt nisi cillum ut et duis minim non laborum veniam. Et ad in cupidatat labore exercitation fugiat.</div>
+
+                <!-- read more -->
+                <div class="text-center"><a class="btn btn-primary small" href="post.html">Read more</a>
+                </div>
+
+                <!-- article footer -->
+                <footer class="two-col">
+                    <div><a class="text-muted text-uppercase small" href="post.html#comments">25 comments</a>
+                    </div>
+
+                    <div>
+                        <div class="social-likes social-likes_single" data-single-title="Share">
+                            <div class="facebook" title="Share link on Facebook">Facebook</div>
+                            <div class="twitter" title="Share link on Twitter">Twitter</div>
+                            <div class="plusone" title="Share link on Google+">Google+</div>
+                        </div>
+                    </div>
+                </footer>
+            </article>
+
+            <article class="post-entry short-story box">
+                <header>
+                    <a href="post-fullwidth.html">
+                        <img src="images/placeholders/article.png" alt="" /> </a>
+                </header>
+
+                <!-- meta info (title, category, author, etc..) -->
+                <div class="meta">
+                    <div class="category"><a href="category.html">Development</a>
+                    </div>
+
+                    <h1><a href="post-fullwidth.html">Fullwidth post</a></h1>
+
+                    <div class="subline">
+                        <time datetime="2014-11-28">28 nov 2014</time>
+                        <span>By <a href="#">WPHunters</a></span>
+                    </div>
+                </div>
+
+                <!-- article text -->
+                <div class="contents">Ea id cupidatat incididunt ex commodo laborum sunt ullamco non anim anim. Velit irure enim enim dolore aliquip excepteur enim dolore mollit.</div>
+
+                <!-- read more -->
+                <div class="text-center"><a class="btn btn-primary small" href="post-fullwidth.html">Read more</a>
+                </div>
+
+                <!-- article footer -->
+                <footer class="two-col">
+                    <div><a class="text-muted text-uppercase small" href="post-fullwidth.html#comments">7 comments</a>
+                    </div>
+
+                    <div>
+                        <div class="social-likes social-likes_single" data-single-title="Share">
+                            <div class="facebook" title="Share link on Facebook">Facebook</div>
+                            <div class="twitter" title="Share link on Twitter">Twitter</div>
+                            <div class="plusone" title="Share link on Google+">Google+</div>
+                        </div>
+                    </div>
+                </footer>
+            </article>
+
+            <article class="post-entry short-story box">
+                <header>
+                    <a href="post.html">
+                        <img src="images/placeholders/article.png" alt="" /> </a>
+                </header>
+
+                <!-- meta info (title, category, author, etc..) -->
+                <div class="meta">
+                    <div class="category"><a href="category.html">Style</a>
+                    </div>
+
+                    <h1><a href="post.html">Making it readable</a></h1>
+
+                    <div class="subline">
+                        <time datetime="2014-11-28">28 nov 2014</time>
+                        <span>By <a href="#">WPHunters</a></span>
+                    </div>
+                </div>
+
+                <!-- article text -->
+                <div class="contents">Mollit consectetur elit incididunt consequat est elit elit ipsum exercitation exercitation minim est occaecat pariatur. Nulla culpa sunt labore ullamco ad amet proident eu aliquip in laborum do occaecat incididunt.</div>
+
+                <!-- read more -->
+                <div class="text-center"><a class="btn btn-primary small" href="post.html">Read more</a>
+                </div>
+
+                <!-- article footer -->
+                <footer class="two-col">
+                    <div><a class="text-muted text-uppercase small" href="post.html#comments">8 comments</a>
+                    </div>
+
+                    <div>
+                        <div class="social-likes social-likes_single" data-single-title="Share">
+                            <div class="facebook" title="Share link on Facebook">Facebook</div>
+                            <div class="twitter" title="Share link on Twitter">Twitter</div>
+                            <div class="plusone" title="Share link on Google+">Google+</div>
+                        </div>
+                    </div>
+                </footer>
+            </article>
+
+            <article class="post-entry short-story box">
+                <header>
+                    <a href="post.html">
+                        <img src="images/placeholders/article.png" alt="" /> </a>
+                </header>
+
+                <!-- meta info (title, category, author, etc..) -->
+                <div class="meta">
+                    <div class="category"><a href="category.html">Photography</a>
+                    </div>
+
+                    <h1><a href="post.html">The Renaissance</a></h1>
+
+                    <div class="subline">
+                        <time datetime="2014-11-28">28 nov 2014</time>
+                        <span>By <a href="#">WPHunters</a></span>
+                    </div>
+                </div>
+
+                <!-- article text -->
+                <div class="contents">Amet voluptate non aute commodo laborum dolor ipsum do esse amet sit ut mollit. Elit officia cupidatat nostrud ullamco nulla quis quis eiusmod deserunt cupidatat.</div>
+
+                <!-- read more -->
+                <div class="text-center"><a class="btn btn-primary small" href="post.html">Read more</a>
+                </div>
+
+                <!-- article footer -->
+                <footer class="two-col">
+                    <div><a class="text-muted text-uppercase small" href="post.html#comments">3 comments</a>
+                    </div>
+
+                    <div>
+                        <div class="social-likes social-likes_single" data-single-title="Share">
+                            <div class="facebook" title="Share link on Facebook">Facebook</div>
+                            <div class="twitter" title="Share link on Twitter">Twitter</div>
+                            <div class="plusone" title="Share link on Google+">Google+</div>
+                        </div>
+                    </div>
+                </footer>
+            </article>
+
+            <article class="post-entry short-story box">
+                <header>
+                    <a href="post.html">
+                        <img src="images/placeholders/article.png" alt="" /> </a>
+                </header>
+
+                <!-- meta info (title, category, author, etc..) -->
+                <div class="meta">
+                    <div class="category"><a href="category.html">Travel</a>
+                    </div>
+
+                    <h1><a href="post.html">Undoubtable source</a></h1>
+
+                    <div class="subline">
+                        <time datetime="2014-11-28">28 nov 2014</time>
+                        <span>By <a href="#">WPHunters</a></span>
+                    </div>
+                </div>
+
+                <!-- article text -->
+                <div class="contents">Occaecat velit aute qui magna tempor labore aliquip commodo deserunt aliquip Lorem exercitation excepteur Lorem. Laborum sunt fugiat nostrud eiusmod nisi magna aute elit laboris pariatur magna deserunt adipisicing eiusmod.</div>
+
+                <!-- read more -->
+                <div class="text-center"><a class="btn btn-primary small" href="post.html">Read more</a>
+                </div>
+
+                <!-- article footer -->
+                <footer class="two-col">
+                    <div><a class="text-muted text-uppercase small" href="post.html#comments">27 comments</a>
+                    </div>
+
+                    <div>
+                        <div class="social-likes social-likes_single" data-single-title="Share">
+                            <div class="facebook" title="Share link on Facebook">Facebook</div>
+                            <div class="twitter" title="Share link on Twitter">Twitter</div>
+                            <div class="plusone" title="Share link on Google+">Google+</div>
+                        </div>
+                    </div>
+                </footer>
+            </article>
+
+        </main>
+
+        <!-- pagination -->
+        <nav class="box">
+            <ul class="pagination">
+                <li class="inactive"><a href="#">Prev</a>
+                </li>
+                <li class="selected"><a href="#">1</a>
+                </li>
+                <li><a href="#">2</a>
+                </li>
+                <li><a href="#">3</a>
+                </li>
+                <li><a href="#">4</a>
+                </li>
+                <li><a href="#">5</a>
+                </li>
+                <li><a href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+    </section>
+
+
+    <!-- ========= Footer ========= -->
+    <footer id="main-footer">
+        <div class="container nopadding-sm animate sequence">
+
+            <!-- socials -->
+            <div>
+                <ul class="socials-list">
+                    <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i> Pinterest</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i> Dribbble</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- bottom menu -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="category.html">Fashion</a>
+                    </li>
+                    <li><a href="category.html">Travel</a>
+                    </li>
+                    <li><a href="about.html">About</a>
+                    </li>
+                    <li><a href="contact.html">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- copyright -->
+            <div>© 2015 Melica. Design by <a href="http://wphunters.com/">WPHunters</a>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- ========= JavaScript assets ========= -->
+    <script src="js/vendor/jquery-1.11.1.js"></script>
+    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+
+    <!-- For faster page load we use CDN services, but if you want -->
+    <!-- you can include local-stored files from "js/assets" directory -->
+    <script src="https://cdn.jsdelivr.net/g/fastclick@1.0,tinynav@1.0,jquery.slick@1.4,masonry@3.1"></script>
+
+    <script src="js/assets/smoothScroll.js"></script>
+    <script src="js/assets/jq.matchHeight.js"></script>
+    <script src="js/assets/js.magnific-popup.js"></script>
+    <script src="js/assets/jq.photoset-grid.js"></script>
+    <script src="js/assets/scrollReveal.js"></script>
+    <script src="js/assets/jq.happy.js"></script>
+    <script src="js/assets/jq.preloader.js"></script>
+    <script src="js/assets/jq.social-likes.js"></script>
+    <script src="js/assets/instansive.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
