@@ -10,7 +10,7 @@
 
 // YOUR EMAIL
 // ==========
-$email = 'user@example.com'; // script will send all messages to this address
+$email = 'jdharper@v23athletics.com'; // script will send all messages to this address
 $from  = 'mailer@yoursite.com';
 
 // DO NOT EDIT CHANGE ANYTHING BELOW THIS LINE
