@@ -1,0 +1,88 @@
+ul.menu {
+  .reset-box-model(true);
+  .clearfix;
+  float   : left;
+  height  : @header-height;
+
+  @media (max-width : @screen-sm-max) {
+    display : none;
+  }
+}
+
+// 1st level
+ul.menu > li {
+  position   : relative;
+  float      : left;
+  &:extend(.default-transition);
+
+  a {
+    display        : block;
+    text-transform : uppercase;
+    color          : @gray-dark;
+    font-size      : 13px;
+    line-height    : @header-height;
+    padding        : 0 15px;
+
+    .fa { margin-left : 5px; }
+  }
+
+  &:hover {
+    //background-color : @gray-lighter;
+    > a { color : @link-hover-color; }
+  }
+
+  // nested menus
+  ul {
+    .reset-box-model(true);
+    visibility : hidden;
+    z-index    : 3;
+    position   : absolute;
+    left       : 0; top : 100%;
+    background : #fff;
+    min-width  : 100%; width : 200px;
+
+    border: 1px solid @gray-lighter;
+
+    // animations
+    opacity    : 0;
+    transform : translateX(0) translateZ(0);
+    &:extend(.default-transition);
+
+    li {
+      .clearfix;
+      &:extend(.fast-transition);
+      position : relative;
+      border-bottom: 1px solid @gray-lighter;
+      &:last-child { border-bottom: 0; }
+
+      a { line-height: @header-height/1.25 !important; }
+      .fa { float : right; line-height: inherit; }
+      &:hover > a { color: @link-hover-color; }
+    }
+  }
+
+  // 3rd-level and deeper
+  ul ul { left : 100%; top : -1px; transform : translateX(-10%); }
+
+  // open state
+  &:hover > ul, li:hover > ul { visibility : visible; opacity : 1; transform : translateX(0) }
+}
+
+/* select-based menu for ios devices */
+.tinynav { position : absolute; top : 0; right : 0; width : 0; height : 0; opacity : 0; }
+
+/* show standard select-menu on non-ios devices */
+@media (max-width : @screen-sm-max) {
+  .non-ios & .tinynav {
+    width     : auto; height : @line-height-computed;
+    top       : 50%; right : @grid-gutter-width*2.5;
+    transform : translateY(-50%); opacity : 1;
+  }
+
+  .non-ios & #menu-btn { display : none; }
+}
+
+/* hide menu button on large displays */
+@media (min-width : @screen-md) {
+  #menu-btn { display : none; }
+}

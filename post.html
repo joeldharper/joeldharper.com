@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Melica - Minimal Blog Template - Post page</title>
+
+    <!-- Fonts, %7C = | -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700%7CRaleway:400,500,600" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap & Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IE9 Fallback -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7,respond@1.4"></script>
+    <![endif]-->
+
+    <!-- Modernizr -->
+    <script src="js/vendor/modernizr.custom.js"></script>
+
+    <!-- Important CSS for animations -->
+    <style>
+        [data-sr] {
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- ========= Header Section ========= -->
+    <header id="header" class="big-grid">
+        <div class="container">
+            <!-- logo -->
+            <a href="index.html" class="logo"><h1>Melica</h1></a>
+
+            <!-- menu -->
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#">Home <i class="fa fa-angle-down"></i></a>
+
+                        <!-- nested menu -->
+                        <ul>
+                            <li>
+                                <a href="index.html">Header styles <i class="fa fa-angle-right"></i></a>
+
+                                <!-- nested menu -->
+                                <ul data-noajax>
+                                    <li><a href="javascript:melicaHeaderMode(0);">White</a>
+                                    </li>
+                                    <li><a href="javascript:melicaHeaderMode(1);">Black</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li><a href="index.html">Standard layout</a>
+                            </li>
+                            <li><a href="index_grid.html">Grid layout</a>
+                            </li>
+                            <li><a href="index_nslider.html">Narrow slider</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Features <i class="fa fa-angle-down"></i></a>
+
+                        <!-- nested menu -->
+                        <ul>
+                            <li><a href="404.html">404 Page</a>
+                            </li>
+                            <li><a href="typography.html">Typography</a>
+                            </li>
+                            <li><a href="post-fullwidth.html">Fullwidth Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="category.html">Category page</a>
+                    </li>
+                    <li><a href="about.html">About me</a>
+                    </li>
+                    <li><a href="contact.html">Contact me</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- search form -->
+            <form id="search-form" action="#" method="get">
+                <input type="text" name="search" placeholder="Type and hit enter" />
+            </form>
+
+            <!-- toggle buttons -->
+            <div class="toggle-buttons">
+                <a class="fa fa-search" id="search-btn" href="#"></a>
+                <a class="fa fa-bars" id="menu-btn" href="#"></a>
+            </div>
+        </div>
+
+        <!-- shadow element -->
+        <div class="shadow"></div>
+    </header>
+
+    <!-- ========= Content ========= -->
+    <section class="container nopadding-sm">
+        <div class="row">
+
+            <main class="col-sm-8 animate-paragraphs">
+
+                <!-- ========= Article body ========= -->
+                <article class="post-entry box">
+                    <header class="slick with-arrows" data-slider>
+                        <div><img src="images/placeholders/article.png" alt="" />
+                        </div>
+                        <div><img src="images/placeholders/article.png" alt="" />
+                        </div>
+                        <div><img src="images/placeholders/article.png" alt="" />
+                        </div>
+                    </header>
+
+                    <!-- meta info (title, category, author, etc..) -->
+                    <div class="meta">
+                        <div class="category"><a href="category.html">Travel</a>
+                        </div>
+
+                        <h1><a href="#">Where to go this autumn</a></h1>
+
+                        <div class="subline">
+                            <time datetime="2014-12-19">19 dec 2014</time>
+                            <span>By <a href="#">WPHunters</a></span>
+                        </div>
+                    </div>
+
+                    <!-- article text -->
+                    <div class="contents animate">
+
+                        <!-- regular text paragraphs -->
+                        <p>Laboris deserunt incididunt velit dolore anim consectetur proident fugiat aliqua cupidatat esse officia. Culpa proident proident aliquip sunt officia dolor. Id deserunt tempor excepteur ad anim eu occaecat ullamco nostrud nulla
+                            aliqua veniam. Dolore dolore adipisicing cillum proident nulla sit.</p>
+                        <p>Eu nisi elit incididunt fugiat ea consectetur aliquip exercitation eu tempor non. Minim ea eiusmod deserunt commodo anim elit est incididunt sunt aliqua quis laborum fugiat.</p>
+
+                        <!-- blockquote -->
+                        <blockquote>
+                            <p>Deserunt fugiat anim voluptate consectetur irure fugiat laborum laboris amet do cillum commodo nostrud. Non Lorem incididunt ullamco ut culpa.</p>
+                            <footer>Someone famous</footer>
+                        </blockquote>
+
+                        <p>Aliqua labore labore duis labore incididunt proident quis excepteur Lorem esse cillum. Id est mollit mollit nostrud pariatur velit ipsum fugiat. Enim minim in voluptate proident irure in sint est minim eu. Do est aute occaecat
+                            quis. Ad Lorem excepteur et commodo velit cillum qui ex est sit commodo in aliquip ad.</p>
+
+                        <div class="photoset-grid" data-layout="32" data-noajax>
+                            <img src="images/placeholders/article.png" alt="" />
+                            <img src="images/placeholders/article.png" alt="" />
+                            <img src="images/placeholders/article.png" alt="" />
+                            <img src="images/placeholders/article.png" alt="" />
+                            <img src="images/placeholders/article.png" alt="" /> </div>
+
+                        <!-- unordered list -->
+                        <ul class="text-muted">
+                            <li>Vivamus maiores harum posuere</li>
+                            <li>Aute, nostrum? Ornare itaque</li>
+                            <li>Blanditiis class. Potenti</li>
+                            <li>Hendrerit aliquam facilis velit</li>
+                        </ul>
+
+                        <p>Dolor anim excepteur do adipisicing aliquip enim. Mollit ad velit consectetur tempor qui excepteur qui deserunt consectetur. Aliqua aliqua adipisicing pariatur est laboris amet pariatur ut adipisicing. Incididunt sint reprehenderit
+                            culpa qui consectetur minim nostrud. Quis velit aliqua non magna nostrud adipisicing fugiat nulla.</p>
+
+                    </div>
+
+                    <!-- article footer -->
+                    <footer class="two-col">
+                        <div class="tag-list">
+                            <a href="#">Travel</a> <a href="#">Art</a> <a href="#">Music</a>
+                        </div>
+
+                        <div>
+                            <div class="social-likes social-likes_single" data-single-title="Share">
+                                <div class="facebook" title="Share link on Facebook">Facebook</div>
+                                <div class="twitter" title="Share link on Twitter">Twitter</div>
+                                <div class="plusone" title="Share link on Google+">Google+</div>
+                            </div>
+                        </div>
+                    </footer>
+                </article>
+
+
+                <!-- ========= Author info ========= -->
+                <section class="box author-info">
+                    <div class="row">
+
+                        <!-- avatar -->
+                        <div class="avatar-col hidden-xs col-sm-3" data-mh="box-authorinfo">
+                            <img class="img-circle" src="images/placeholders/avatar.png" alt="" /> </div>
+
+                        <!-- text -->
+                        <div class="col-sm-9" data-mh="box-authorinfo">
+                            <h1 class="name">WPHunters</h1>
+
+                            <p>Laborum velit ad magna reprehenderit. Minim nulla Lorem ea est aliquip ex labore fugiat deserunt ipsum cupidatat.</p>
+
+                            <ul class="socials-list invert">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <!-- ========= Related Articles ========= -->
+                <section class="box with-header">
+                    <h1 class="title"><span>You might also like</span></h1>
+
+                    <div class="post-list-row">
+                        <div class="post-list regular smart-slider vertical">
+                            <article>
+                                <!-- image -->
+                                <div class="main-image">
+                                    <img src="images/placeholders/article-small.png" alt="" /> </div>
+
+                                <!-- post info -->
+                                <div class="post-info">
+                                    <h1 class="title">His and her food</h1>
+                                    <time datetime="2014-12-19">19 Dec 2014</time>
+                                </div>
+
+                                <!-- link -->
+                                <a class="link" href="post.html">read more</a>
+                            </article>
+
+                            <article>
+                                <!-- image -->
+                                <div class="main-image">
+                                    <img src="images/placeholders/article-small.png" alt="" /> </div>
+
+                                <!-- post info -->
+                                <div class="post-info">
+                                    <h1 class="title">Wolfs are dead?</h1>
+                                    <time datetime="2014-10-25">25 oct 2014</time>
+                                </div>
+
+                                <!-- link -->
+                                <a class="link" href="post.html">read more</a>
+                            </article>
+
+                            <article>
+                                <!-- image -->
+                                <div class="main-image">
+                                    <img src="images/placeholders/article-small.png" alt="" /> </div>
+
+                                <!-- post info -->
+                                <div class="post-info">
+                                    <h1 class="title">Best travel routes for 2015</h1>
+                                    <time datetime="2014-09-08">8 sep 2014</time>
+                                </div>
+
+                                <!-- link -->
+                                <a class="link" href="post.html">read more</a>
+                            </article>
+
+                            <article>
+                                <!-- image -->
+                                <div class="main-image">
+                                    <img src="images/placeholders/article-small.png" alt="" /> </div>
+
+                                <!-- post info -->
+                                <div class="post-info">
+                                    <h1 class="title">Great sunset in my city</h1>
+                                    <time datetime="2014-12-12">12 dec 2014</time>
+                                </div>
+
+                                <!-- link -->
+                                <a class="link" href="post.html">read more</a>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- ========= Comments ========= -->
+                <section class="box with-header comments-section" id="comments">
+                    <h1 class="title"><span>4 comments</span></h1>
+
+                    <!-- Comments flow -->
+                    <div class="flow animate sequence">
+                        <article class="row depth-1">
+                            <!-- author photo -->
+                            <div class="avatar-col hidden-xs col-sm-2">
+                                <img src="images/placeholders/avatar.png" alt="" /> </div>
+
+                            <!-- comment text & info -->
+                            <div class="comment-col col-sm-10">
+                                <header>
+                                    <div class="name">Amanda</div>
+                                    <time datetime="2013-05-29 19:45">May 29, 2013 at 7:45 AM</time>
+                                </header>
+
+                                <div class="text">In occaecat cillum incididunt id pariatur consequat commodo commodo cillum. Ullamco veniam esse dolor non magna excepteur aute ipsum sint ut ipsum.</div>
+
+                                <footer><a class="text-uppercase" href="#">Reply</a>
+                                </footer>
+                            </div>
+                        </article>
+
+                        <!-- nested comment (depth=2) -->
+                        <article class="row depth-2">
+                            <!-- author photo -->
+                            <div class="avatar-col hidden-xs col-sm-2">
+                                <img src="images/placeholders/avatar.png" alt="" /> </div>
+
+                            <!-- comment text & info -->
+                            <div class="comment-col col-sm-10">
+                                <header>
+                                    <div class="name">James</div>
+                                    <time datetime="2013-05-30 14:02">May 30, 2013 at 2:02 PM</time>
+                                </header>
+
+                                <div class="text">Minim minim reprehenderit esse laboris culpa. Ea nulla duis minim ullamco pariatur.</div>
+
+                                <footer><a class="text-uppercase" href="#">Reply</a>
+                                </footer>
+                            </div>
+                        </article>
+
+                        <article class="row depth-2">
+                            <!-- author photo -->
+                            <div class="avatar-col hidden-xs col-sm-2">
+                                <img src="images/placeholders/avatar.png" alt="" /> </div>
+
+                            <!-- comment text & info -->
+                            <div class="comment-col col-sm-10">
+                                <header>
+                                    <div class="name">Michael</div>
+                                    <time datetime="2013-06-01 23:33">June 1, 2013 at 11:33 PM</time>
+                                </header>
+
+                                <div class="text">Aliqua reprehenderit enim mollit cillum ex velit aliquip laboris do mollit commodo. Duis proident esse adipisicing sit aliqua non incididunt.</div>
+
+                                <footer><a class="text-uppercase" href="#">Reply</a>
+                                </footer>
+                            </div>
+                        </article>
+
+                        <article class="row depth-1">
+                            <!-- author photo -->
+                            <div class="avatar-col hidden-xs col-sm-2">
+                                <img src="images/placeholders/avatar.png" alt="" /> </div>
+
+                            <!-- comment text & info -->
+                            <div class="comment-col col-sm-10">
+                                <header>
+                                    <div class="name">Megan</div>
+                                    <time datetime="2013-06-02 22:15">June 2, 2013 at 10:15 AM</time>
+                                </header>
+
+                                <div class="text">Dolore enim ea sunt do sint exercitation Lorem. Id minim labore officia laborum labore tempor anim eu aliquip consequat qui laboris quis.</div>
+
+                                <footer><a class="text-uppercase" href="#">Reply</a>
+                                </footer>
+                            </div>
+                        </article>
+                    </div>
+
+
+                    <!-- Add comment form -->
+                    <h2>Leave a reply</h2>
+                    <form id="addcomment_form" action="#" method="post">
+
+                        <!-- Success message -->
+                        <div class="alert alert-success hide-soft">
+                            <strong>Well done!</strong> Your comment successfully submitted! Thank you ;)
+                        </div>
+
+                        <!-- Error message -->
+                        <div class="alert alert-danger hide-soft">
+                            <strong>Something wrong!</strong> <span></span>
+                        </div>
+
+                        <!-- Form First row -->
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <input type="text" class="form-control" name="fullname" placeholder="Name" required/>
+                            </div>
+
+                            <div class="form-group col-sm-6">
+                                <input type="email" class="form-control" placeholder="Email" name="email" required/>
+                            </div>
+                        </div>
+
+                        <!-- Third row -->
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Your comment" name="message" required></textarea>
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-long">Post comment</button>
+                        </div>
+                    </form>
+                </section>
+
+            </main>
+
+            <!-- ========= Sidebar ========= -->
+            <aside class="sidebar col-sm-4">
+
+                <!-- about me widget -->
+                <section class="widget box with-header">
+                    <h1 class="title"><span>About me</span></h1>
+                    <p class="text-center">
+                        <img class="img-circle" src="images/placeholders/avatar.png" alt="" /> </p>
+                    <p>Dolor veniam culpa esse irure irure ex adipisicing nulla laboris. Culpa aliquip dolor laboris ad irure fugiat cillum aliquip nulla sint laborum ipsum. Nisi sit consectetur labore excepteur aute ut culpa occaecat voluptate exercitation.</p>
+                    <p class="text-center"><a class="btn btn-primary" href="about.html">Read more</a>
+                    </p>
+                </section>
+
+                <!-- socials widget -->
+                <section class="widget box with-header">
+                    <h1 class="title"><span>Follow</span></h1>
+
+                    <ul class="socials-list invert text-center">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-delicious"></i></a>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- subscribe widget -->
+                <section class="widget box with-header">
+                    <h1 class="title"><span>Subscribe</span></h1>
+
+                    <p class="xlarge text-center text-italic">Join 32, 000 readers!</p>
+
+                    <form id="subscribe_form" class="form" action="http://bbdesign.us9.list-manage.com/subscribe/post">
+                        <input type="hidden" name="u" value="1368c473b42d831e481262a9c">
+                        <input type="hidden" name="id" value="c4730adeb2">
+
+                        <!-- success message -->
+                        <div class="alert alert-success alert-warning hide-soft">
+                            <strong>Almost done!</strong> To complete the subscription process, please click the link in the email we just sent you.
+                        </div>
+
+                        <!-- error message -->
+                        <div class="alert alert-danger hide-soft">
+                            <strong>Something wrong!</strong> <span></span>
+                        </div>
+
+                        <!-- form fields -->
+                        <div class="form-group">
+                            <input type="text" name="MERGE2" id="sname_field" class="form-control" placeholder="Name" required/>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="MERGE0" id="semail_field" class="form-control" placeholder="Email" required/>
+                        </div>
+
+                        <div class="form-group text-center">
+                            <button class="btn btn-primary">Subscribe</button>
+                        </div>
+                    </form>
+                </section>
+
+                <!-- popular posts widget -->
+                <section class="widget box with-header">
+                    <h1 class="title"><span>Popular</span></h1>
+
+                    <div class="post-list width-bg smart-slider">
+                        <article>
+                            <!-- image -->
+                            <div class="main-image">
+                                <img src="images/placeholders/article-small.png" alt="" /> </div>
+
+                            <!-- post info -->
+                            <div class="post-info">
+                                <h1 class="title">His and her style</h1>
+                                <time datetime="2014-12-19">19 Dec 2014</time>
+                            </div>
+
+                            <!-- link -->
+                            <a class="link" href="post.html">read more</a>
+                        </article>
+
+                        <article>
+                            <!-- image -->
+                            <div class="main-image">
+                                <img src="images/placeholders/article-small.png" alt="" /> </div>
+
+                            <!-- post info -->
+                            <div class="post-info">
+                                <h1 class="title">Books are dead?</h1>
+                                <time datetime="2014-10-25">25 oct 2014</time>
+                            </div>
+
+                            <!-- link -->
+                            <a class="link" href="post.html">read more</a>
+                        </article>
+
+                        <article>
+                            <!-- image -->
+                            <div class="main-image">
+                                <img src="images/placeholders/article-small.png" alt="" /> </div>
+
+                            <!-- post info -->
+                            <div class="post-info">
+                                <h1 class="title">Gift ideas for 2015</h1>
+                                <time datetime="2014-09-08">8 sep 2014</time>
+                            </div>
+
+                            <!-- link -->
+                            <a class="link" href="post.html">read more</a>
+                        </article>
+
+                        <article>
+                            <!-- image -->
+                            <div class="main-image">
+                                <img src="images/placeholders/article-small.png" alt="" /> </div>
+
+                            <!-- post info -->
+                            <div class="post-info">
+                                <h1 class="title">Healthy Morning Breakfast</h1>
+                                <time datetime="2014-12-12">12 dec 2014</time>
+                            </div>
+
+                            <!-- link -->
+                            <a class="link" href="post.html">read more</a>
+                        </article>
+                    </div>
+
+                </section>
+
+                <!-- tags widget -->
+                <section class="widget box with-header">
+                    <h1 class="title"><span>Tags</span></h1>
+
+                    <div class="tag-list">
+                        <a href="#">Web Development</a> <a href="#">Design</a> <a href="#">Music</a>
+                        <a href="#">Architecture</a> <a href="#">Art</a> <a href="#">Video</a> <a href="#">Travel</a>
+                    </div>
+                </section>
+
+                <!-- search widget -->
+                <section class="widget box with-header">
+                    <h1 class="title"><span>Search</span></h1>
+
+                    <form action="#" method="get">
+                        <div class="input-group">
+                            <input class="form-control on-left" type="text" name="search" placeholder="Type search query" />
+
+                            <span class="input-group-btn">
+                    <button class="btn btn-primary"><i class="fa fa-search"></i></button>
+                </span>
+                        </div>
+                    </form>
+                </section>
+
+                <!-- instagram widget -->
+                <section class="widget box with-header">
+                    <h1 class="title"><span>Instagram</span></h1>
+
+                    <iframe src="http://instansive.com/widgets/3d06afb7334515d5798a95c67fb1ecc773e285b3.html" id="instansive_3d06afb733" name="instansive_3d06afb733" scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+                </section>
+
+                <!-- archive -->
+                <section class="widget box with-header">
+                    <h1 class="title"><span>Archive</span></h1>
+
+                    <ul class="standard-list">
+                        <li><a href="#">October 2014</a>
+                        </li>
+                        <li><a href="#">November 2014</a>
+                        </li>
+                        <li><a href="#">September 2014</a>
+                        </li>
+                        <li><a href="#">August 2014</a>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+    </section>
+
+
+    <!-- ========= Footer ========= -->
+    <footer id="main-footer">
+        <div class="container nopadding-sm animate sequence">
+
+            <!-- socials -->
+            <div>
+                <ul class="socials-list">
+                    <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i> Pinterest</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i> Dribbble</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- bottom menu -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="category.html">Fashion</a>
+                    </li>
+                    <li><a href="category.html">Travel</a>
+                    </li>
+                    <li><a href="about.html">About</a>
+                    </li>
+                    <li><a href="contact.html">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- copyright -->
+            <div>© 2015 Melica. Design by <a href="http://wphunters.com/">WPHunters</a>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- ========= JavaScript assets ========= -->
+    <script src="js/vendor/jquery-1.11.1.js"></script>
+    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+
+    <!-- For faster page load we use CDN services, but if you want -->
+    <!-- you can include local-stored files from "js/assets" directory -->
+    <script src="https://cdn.jsdelivr.net/g/fastclick@1.0,tinynav@1.0,jquery.slick@1.4,masonry@3.1"></script>
+
+    <script src="js/assets/smoothScroll.js"></script>
+    <script src="js/assets/jq.matchHeight.js"></script>
+    <script src="js/assets/js.magnific-popup.js"></script>
+    <script src="js/assets/jq.photoset-grid.js"></script>
+    <script src="js/assets/scrollReveal.js"></script>
+    <script src="js/assets/jq.happy.js"></script>
+    <script src="js/assets/jq.preloader.js"></script>
+    <script src="js/assets/jq.social-likes.js"></script>
+    <script src="js/assets/instansive.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
