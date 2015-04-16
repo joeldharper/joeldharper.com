@@ -7,7 +7,6 @@ categories: posts
 ---
 
 
-
-Dru teaches JD how to develop his own resume site and the world rejoices. Learn more about Dru here: [Dru Sellers](http://www.drusellers.com).
+All your base belong to us!
 
 ## JD becomes unstoppable
