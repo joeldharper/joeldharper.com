@@ -264,6 +264,7 @@ th {
 :before {
     -moz-box-sizing: border-box;
     box-sizing: border-box
+    max-width: 991px
 }
 html {
     font-size: 10px;
