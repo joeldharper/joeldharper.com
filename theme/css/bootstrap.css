@@ -308,6 +308,7 @@ figure {
 }
 img {
     vertical-align: middle
+    width: 100%
 }
 .img-responsive {
     display: inline-block;
