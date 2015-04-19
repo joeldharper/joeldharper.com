@@ -429,9 +429,9 @@ ul.socials-list.invert li .fa {
     z-index: 1;
     height: 5px;
     width: 100%;
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), transparent);
-    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1), transparent);
-    background-image: linear-gradient(top, rgba(0, 0, 0, 0.1), transparent);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), transparent);
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), transparent);
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0), transparent);
 }
 #header + *:not(.header-nomargin) {
     margin-top: 44px;
