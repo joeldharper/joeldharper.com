@@ -1,0 +1,66 @@
+---
+layout: default
+title: About
+---
+
+<!-- ========= Content ========= -->
+<section class="container nopadding-sm">
+
+    <!-- ========= Article header ========= -->
+    <div class="box-bg container">
+        <div class="embed-responsive embed-responsive-16by9 place-map" data-lat="30.358142" data-long="-97.795706">
+            <!-- Text on Marker -->
+            <b>6000 Shepherd Mountain Cove</b>
+            <br/>
+            <b>Suite 508</b>
+            <br/> Austin, TX  78730
+            <br/>
+        </div>
+    </div>
+    <div class="box-bg-helper embed-responsive embed-responsive-16by9"></div>
+
+    <div class="box">
+
+        <h1 class="section-title">Contact me</h1>
+        <p>Feel free to give me a call or shoot me a text @ 512-294-8295 or send me a message and I'll get right back to you.</p>
+
+        <!-- Add comment form -->
+        <div class="comments-section">
+            <h2>Leave a message</h2>
+            <form id="contact_form" action="php/contact.php" method="post">
+
+                <!-- Success message -->
+                <div class="alert alert-success hide-soft">
+                    <strong>Well done!</strong> Your message sent! Thank you ;)
+                </div>
+
+                <!-- Error message -->
+                <div class="alert alert-danger hide-soft">
+                    <strong>Something wrong!</strong> <span></span>
+                </div>
+
+                <!-- Form First row -->
+                <div class="row">
+                    <div class="form-group col-xs-12 col-sm-6">
+                        <input type="text" class="form-control" id="fullname_field" name="fullname" placeholder="Name" required/>
+                    </div>
+
+                    <div class="form-group col-xs-12 col-sm-6">
+                        <input type="email" class="form-control" id="email_field" placeholder="Email" name="email" required/>
+                    </div>
+                </div>
+
+                <!-- Third row -->
+                <div class="form-group">
+                    <textarea id="message_field" class="form-control" rows="5" placeholder="Your message" name="message" required></textarea>
+                </div>
+
+                <!-- Buttons -->
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-long">Send message</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</section>
