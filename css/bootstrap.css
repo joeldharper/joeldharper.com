@@ -334,8 +334,8 @@ img {
     height: auto
 }
 .img-circle {
-    -moz-border-radius: 50%;
-    border-radius: 50%
+    -moz-border-radius: ;
+    border-radius:
 }
 .img-center {
     margin-right: auto;
