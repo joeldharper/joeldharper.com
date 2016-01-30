@@ -1313,34 +1313,8 @@ ul.pagination > li.selected a {
     width: 100%;
     /* inner helper element */
 }
-.box.with-header > .title > span {
-    position: relative;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: normal;
-    background: #1a171b;
-    color: #fff;
-    padding: 0 15px;
-    line-height: 30px;
-}
-.box.with-header > .title > span:after,
-.box.with-header > .title > span:before {
-    right: -15px;
-    top: 50%;
-    border: 15px solid #1a171b;
-    content: '';
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    margin-top: -15px;
-    border-left-color: transparent;
-    border-right-color: transparent;
-}
-.box.with-header > .title > span:before {
-    right: auto;
-    left: -15px;
-}
+
+
 
 
 
