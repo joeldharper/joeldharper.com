@@ -785,7 +785,7 @@ ul.socials-list.invert li .fa {
     top: 0;
     left: 0;
     content: '';
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.0);
     z-index: 1;
 }
 #slider-container .slick-slide .caption {
