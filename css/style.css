@@ -469,9 +469,9 @@ ul.socials-list.invert li .fa {
     padding: 0;
     border: 0;
     display: inline-block;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 23px;
     line-height: 60px;
     color: #262626;
 }
